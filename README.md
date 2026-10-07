@@ -1,10 +1,14 @@
 # CryptoMiner
 
-> Projeto pessoal de estudo, criado para aprofundar o uso de **Rust** e explorar aplicações práticas de **machine learning** no dia a dia.
+> [Leia em Português (Brasil)](README.pt-BR.md)
 
-O CryptoMiner é um laboratório de desenvolvimento: uso este projeto para praticar conceitos de sistemas, concorrência, integração com APIs, observabilidade e interfaces de terminal com Rust. Em paralelo, ele serve como base para experimentar como machine learning pode apoiar tarefas cotidianas — por exemplo, análise de métricas, identificação de padrões e automação orientada por dados.
+CryptoMiner is a personal learning project for deepening practical experience with **Rust** and exploring how **machine learning** can support everyday, data-driven workflows.
 
-O foco é aprendizado e experimentação. Recursos relacionados a machine learning são uma direção de evolução do projeto e não devem ser interpretados como funcionalidades já implementadas.
+It is a hands-on environment for systems programming, concurrency, API integrations, observability, and terminal interfaces. Machine-learning experiments—such as metric analysis, pattern detection, and data-driven automation—are an intended direction for the project, not features currently implemented.
+
+## Project Status and Scope
+
+This repository is for learning and experimentation. Mining features are provided for local, responsible use only. Before running any workload, understand its energy cost, hardware impact, and the legal requirements that apply in your jurisdiction. Never run mining software on hardware you do not own or are not explicitly authorized to use.
 
 Multi-coin solo cryptocurrency miner manager written in Rust.
 
