@@ -1,5 +1,11 @@
 # CryptoMiner
 
+> Projeto pessoal de estudo, criado para aprofundar o uso de **Rust** e explorar aplicações práticas de **machine learning** no dia a dia.
+
+O CryptoMiner é um laboratório de desenvolvimento: uso este projeto para praticar conceitos de sistemas, concorrência, integração com APIs, observabilidade e interfaces de terminal com Rust. Em paralelo, ele serve como base para experimentar como machine learning pode apoiar tarefas cotidianas — por exemplo, análise de métricas, identificação de padrões e automação orientada por dados.
+
+O foco é aprendizado e experimentação. Recursos relacionados a machine learning são uma direção de evolução do projeto e não devem ser interpretados como funcionalidades já implementadas.
+
 Multi-coin solo cryptocurrency miner manager written in Rust.
 
 Mine Monero (XMR) with your CPU via RandomX, or orchestrate GPU miners (lolminer, teamredminer, xmrig) for Ethereum Classic, Ravencoin, Ergo, and more. Includes an embedded Stratum V1 server so external miners can connect to your local node.
