@@ -1,0 +1,48 @@
+[mining]
+coin = "monero"
+wallet_address = ""   # YOUR Monero wallet address (required for XMR mining)
+threads = 6           # 0 = auto (half of cores)
+intensity = 1.0       # 0.0 to 1.0 (lower = less CPU usage)
+
+[daemon]
+url = "http://127.0.0.1:18081"   # Monero daemon RPC endpoint
+user = ""
+pass = ""
+
+[gpu]
+enabled = false
+miner_path = "/path/to/lolminer"
+devices = [0, 1]      # GPU device indices
+
+[stratum]
+enabled = false
+bind = "0.0.0.0:3333"
+
+# --- Coin Profiles ---
+
+[[profiles]]
+name = "monero"
+coin = "xmr"
+algorithm = "randomx"
+daemon_url = "http://127.0.0.1:18081"
+
+[[profiles]]
+name = "etc"
+coin = "etc"
+algorithm = "etchash"
+daemon_url = "http://127.0.0.1:8551"
+gpu_miner = "lolminer"
+
+[[profiles]]
+name = "rvn"
+coin = "rvn"
+algorithm = "kawpow"
+daemon_url = "http://127.0.0.1:8766"
+gpu_miner = "lolminer"
+
+[[profiles]]
+name = "ergo"
+coin = "erg"
+algorithm = "autolykos2"
+daemon_url = "http://127.0.0.1:9053"
+gpu_miner = "lolminer"
